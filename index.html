@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./images-20210623T055033Z-001/images/logo.png" alt="" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text-box">
+                <h2>
+                    It's not just Coffee<br>It's <span>Starbucks</span>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloremque, perspiciatis quaerat quas culpa repellat dolorem quo ex quia vitae?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="img-box">
+                <img src="./images-20210623T055033Z-001/images/img1.png" alt="" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images-20210623T055033Z-001/images/thumb1.png" onclick="imgSlider('./images-20210623T055033Z-001/images/img1.png');changeCircleColor('#017143')" alt=""></li>
+            <li><img src="./images-20210623T055033Z-001/images/thumb2.png" onclick="imgSlider('./images-20210623T055033Z-001/images/img2.png');changeCircleColor('#EB7495')" alt=""></li>
+            <li><img src="./images-20210623T055033Z-001/images/thumb3.png" onclick="imgSlider('./images-20210623T055033Z-001/images/img3.png');changeCircleColor('#D752B1')" alt=""></li>
+        </ul>
+    </section>
+</body>
+</html>
